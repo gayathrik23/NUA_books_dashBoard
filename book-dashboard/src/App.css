@@ -1,0 +1,108 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #b0bec5; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #263238; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: #ffffff; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ffffff; 
+  font-size: 24px; 
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b0bec5; 
+  font-size: 16px; 
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #37474f; 
+  color: #b0bec5; 
+}
+
+.table th {
+  cursor: pointer;
+  background-color: #455a64; 
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table tr:hover {
+  background-color: #37474f; 
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  display: block;
+  padding: 8px 12px;
+  color: #b0bec5; 
+  text-decoration: none;
+  border: 1px solid #37474f; 
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination li a:hover,
+.pagination li.active a {
+  background-color: #f5f9fb; 
+  color: #263238; 
+  border-color: #b0bec5;
+}
+
+.select-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.select-wrapper label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #ffffff; 
+}
+
+.select-wrapper select {
+  padding: 5px;
+  border: 1px solid #37474f;
+  border-radius: 4px;
+  background-color: #263238; 
+  color: #b0bec5; 
+}
